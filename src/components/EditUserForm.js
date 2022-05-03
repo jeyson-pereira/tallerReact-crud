@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 
+/**
+ * It renders a form that allows the user to edit the name and username of a user
+ * @param props - The props that are passed to the component.
+ */
 const EditUserForm = (props) => {
   const [user, setUser] = useState(props.currentUser);
 

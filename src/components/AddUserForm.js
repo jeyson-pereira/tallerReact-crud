@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+/**
+ * It returns a form with two inputs (name and username) and a button. When the form is submitted, the
+ * user object is added to the list of users
+ * @param props - The props object is passed to the component.
+ */
 const AddUserForm = (props) => {
   const initialFormState = { id: null, name: "", username: "" };
   const [user, setUser] = useState(initialFormState);

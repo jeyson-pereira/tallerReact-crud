@@ -1,5 +1,6 @@
 import React from "react";
 
+/* A function that returns a table with users data objects from props */
 const UserTable = (props) => (
   <table>
     <thead>
